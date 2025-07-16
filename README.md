@@ -6,7 +6,7 @@ Constraints: the sentence should be type string, also the number of characters, 
 Input: the sentence added
 
 Output: the number of characters, words and vowels
--------------------
+
 the Solution: consist of reading the sentence then run the length of sentence with iterrative process using the for_loop, and start counting the number of characters then run an if statement and place a condition to count words after every space or point and another if to count vowels.
 -----------------------------------------------------------------------------------------------------------------------------------------------
 algorithm design:
