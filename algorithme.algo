@@ -1,0 +1,24 @@
+algo_sentence
+var
+    sen:string;
+    nbcharacters:integer :=0;
+    nbwords:integer :=0;
+    nbvowels:integer :=0;
+    ch:char;
+    i:integer;
+begin 
+    Read(sen)
+    for i from 1 to length(sen) do
+        ch:=sen[i]
+        nbcharacters:=+1
+        if (ch=' 'or ch='.') then
+            nbwords:=+1
+        end_if
+        if (ch='a' or ch='e' or ch='i' or ch='u') then
+            nbvowels:=+1
+        end_if
+    end_for
+    Write(nbcharacters)
+    Write(nbwords)
+    Write(nbvowels)
+end
